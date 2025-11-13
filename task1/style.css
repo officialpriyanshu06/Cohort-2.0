@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    background-color: rgb(20, 20, 40);
+    padding: 5px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#about{
+    background-color: rgb(221, 224, 219);
+    margin: 50px;
+    height: 200;
+    padding: 40px;
+}
+#education{
+    background-color: rgb(219, 230, 235);
+    margin: 50px;
+    height: 200;
+    width: 200;
+    padding: 10px 200px;
+}
+#skill{
+    background-color: rgb(246, 207, 216);
+    margin: 50px;
+    height: 200;
+    width: 200;
+    padding: 10px 200px;
+}
+#projects{
+    background-color: rgb(178, 226, 171);
+    margin: 50px;
+    height: 200;
+    width: 200;
+    padding: 10px 200px;
+}
+#contacts{
+    background-color: rgb(139, 162, 189);
+    margin: 50px;
+    height: 200;
+    width: 200;
+    padding: 10px 200px;
+}
+#bottom{
+    background-color: black;
+    padding: 10px 200px;
+}
+
+
+
+#heading1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+.first{
+    color: black;
+    text-align: center;
+}
+
+#para2{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.second{
+    color: black;
+    text-align: center;
+    margin: 10px;
+}
+
+#btech{
+    background-color: white;
+    padding: 10px 80px;
+}
+
+#intermediate{
+    background-color: white;
+    padding: 10px 80px;
+}
+
+.third{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 10px ;
+}
+
+#heading4{
+    background-color: rgb(246, 207, 216);
+    padding-top: 25px;
+}
+
+.fourth{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 10px ;
+}
+
+#heading5{
+    text-align: center;
+    padding-top: 25px;
+}
+
+.fifth{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+#heading6{
+    text-align: center;
+    padding-top: 25px;
+}
+
+#bot{
+    color: white;
+}
