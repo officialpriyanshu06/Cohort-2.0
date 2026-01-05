@@ -1,0 +1,145 @@
+@font-face{
+    font-family: seb;
+    src: url(./sf-pro-text_regular.woff2);
+}
+
+* {
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html, 
+body {
+     height: 100%;
+     width: 100%;
+     padding-top: 25px;
+}
+
+#nav{
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: 300px;
+}
+
+#centre{
+    height: 85%;
+    width: 100%;
+    background-color: #f5f5f7;
+    text-align: center;
+    background-image: url(https://www.apple.com/in/home/heroes/iphone-family/images/hero_iphone_family__fuz5j2v5xx6y_small_2x.jpg);
+    padding-top: 10px;
+}
+
+#centre h1 {
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 60px;
+    font-family: seb; 
+}
+
+#centre h5 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+#links button{
+    background-color: royalblue;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    border: none;
+}
+
+#bottom1{
+    height: 80%;
+    width: 100%;
+    background-color: #f5f5f7;
+    margin: 15px 0px;
+    text-align: center;
+    background-image: url(https://www.apple.com/in/home/heroes/apple-watch-ny/images/hero_apple_watch_ny__c8f1tzaoa72a_large_2x.jpg);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 30px;
+}
+
+#watchdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    gap: 10px;
+    font-size: 25px;
+    font-family: seb;
+}
+
+#watchdiv i{
+    font-size: 45px;
+}
+
+#watch{
+    font-weight: 100px;
+}
+
+#series{
+    font-weight: 10;
+}
+
+#bottom1 h5{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: seb;
+}
+
+#links2 button{
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 15px 20px;
+}
+
+#bottom2{
+    height: 70%;
+    width: 100%;
+    background-color: #f5f5f7;
+    text-align: center;
+    margin: 15px 0px;
+}
+
+#bottom2 h1{
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 10px;
+}
+
+#bottom2 h4{
+    font-size: 50px;
+}
