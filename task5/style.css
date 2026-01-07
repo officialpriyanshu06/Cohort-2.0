@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html, 
+body {
+     height: 100%;
+     width: 100%;
+}
+
+#parent{
+    height: 100%;
+    width: 100%;
+    padding: 30px;
+    background-color: rgb(125, 132, 133);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.325);
+}
