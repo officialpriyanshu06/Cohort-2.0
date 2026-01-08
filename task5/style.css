@@ -13,16 +13,37 @@ body {
     height: 100%;
     width: 100%;
     padding: 30px;
-    background-color: rgb(125, 132, 133);
+    background-color: rgba(0, 0, 0, 0.983);
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
 .card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: 300px;
     width: 250px;
-    background-color: white;
+    background-color: rgb(208, 199, 63);
     border-radius: 20px;
     box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.325);
+}
+
+.card img{
+    height: 100px;
+    width: 100pxpx;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h2{
+    color: rgba(255, 255, 255, 0.692);
+}
+
+#dhoni{
+    background-image: url(https://ih1.redbubble.net/image.4239348674.1943/flat,750x1000,075,t.jpg);
+    background-size: cover;
+    background-position: center;
 }
