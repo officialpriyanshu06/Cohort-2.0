@@ -16,7 +16,8 @@ body {
     background-color: rgba(0, 0, 0, 0.983);
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    justify-content: space-evenly;
+    gap: 25px;
 }
 
 .card{
@@ -36,14 +37,67 @@ body {
     width: 100pxpx;
     border-radius: 50%;
     object-fit: cover;
-}
+    margin: 10px;
 
-.card h2{
-    color: rgba(255, 255, 255, 0.692);
 }
 
 #dhoni{
-    background-image: url(https://ih1.redbubble.net/image.4239348674.1943/flat,750x1000,075,t.jpg);
+    background-image: url(https://imgk.timesnownews.com/story/Kohli_Dhoni_tweet.png);
     background-size: cover;
     background-position: center;
 }
+
+#virat{
+    background-image: url(https://img1.hscicdn.com/image/upload/f_auto,t_ds_w_1200,q_60/lsci/db/PICTURES/CMS/237400/237471.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#rohit{
+    background-image: url(https://c.ndtvimg.com/2021-11/i3redlb_rohit-sharma-afp_625x300_05_November_21.jpg?im=FeatureCrop,algorithm=dnn,width=1200,height=675);
+    background-size: cover;
+    background-position: center;
+}
+
+#jadeja{
+    background-image: url(https://wallpapers.com/images/hd/ravindra-jadeja-throwing-a-ball-0vibm49qt8p7f2wp.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#sanju{
+    background-image: url(https://img.theweek.in/content/dam/week/news/sports/images/2023/12/21/Sanju%20Samson%20celebrates%20his%20century%20_%20Reuters.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#rishabh{
+    background-image: url(https://www.royalchallengers.com/PRRCB01/public/styles/1061x767_landscape/public/2024-06/GettyImages-2156816650.jpg?itok=glcyxPpJ);
+    background-size: cover;
+    background-position: center;
+}
+
+#bumrah{
+    background-image: url(https://cricinformer.com/wp-content/uploads/2023/08/jasprit-cover.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#surya{
+    background-image: url(https://p.imgci.com/db/PICTURES/CMS/343500/343568.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#kuldeep{
+    background-image: url(https://images.news18.com/ibnlive/uploads/2025/06/Kuldeep-Yadav-2025-06-c7c667ee828de7cab88a6cc583b2dc50-4x3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#chahal{
+    background-image: url(https://sc0.blr1.digitaloceanspaces.com/large/828431-50705-tgdbszvuhw-1486105614.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
