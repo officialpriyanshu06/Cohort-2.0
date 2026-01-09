@@ -110,7 +110,7 @@ body {
     bottom: -30%;
     padding: 20px;
     transition: all ease 0.4s;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .card:hover .bottom{
@@ -120,4 +120,5 @@ body {
 
 h2, p{
     color: rgba(255, 255, 255, 0.613);
+
 }
