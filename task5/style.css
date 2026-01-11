@@ -120,10 +120,5 @@ body {
 }
 
 h2, p{
-    color: transparent;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJiUIkQRVPAE-r5lP78eB5SuMrz2v9MOL71g&s);
-    background-size: cover;
-    background-position: center;
-
-    background-clip: text;
+    color: white;
 }
