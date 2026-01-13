@@ -12,8 +12,9 @@ body {
 main{
     height: 100%;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.791);
     display: grid;
+    gap: 2px;
     grid-template-columns: 1fr 25% 1fr;
     grid-template-rows: 10% 1fr 0.5fr 0.5fr;
     grid-template-areas: "header header header"
@@ -24,35 +25,63 @@ main{
 
 header{
     grid-area: header;
-    background-color: aqua;
+    background-color: rgb(7, 8, 8);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbt_isRTjPjEptCehNptAy3l3Xk9rphuXJLw&s);
+    /* background-size: cover; */
+    background-position: center;
+    border: 3px solid black;
 }
 
 aside{
     grid-area: aside;
     background-color: blueviolet;
+    background-image: url(https://wallpapers.com/images/featured/dragon-ball-z-iphone-vmi5qjhyv2vnyj0c.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
 
 section{
     grid-area: section;
     background-color: crimson;
+    background-image: url(https://wallpapers.com/images/featured/dragon-ball-z-3izrb2kvqsbl3tun.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
 
 #div-left{
     grid-area: div-left;
     background-color: khaki;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/519/45/310/picolo-gohan-vegeta-trunks-character-wallpaper-thumb.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
 
 #div-right{
     grid-area: div-right;
     background-color: gold;
+    background-image: url(https://i.redd.it/hcd2d41zva891.png);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
 
 #div-top{
     grid-area: div-top;
     background-color: seagreen;
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/548/274/337/dbz-dragon-ball-z-goku-dragon-ball-super-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
 
 #div-bottom{
     grid-area: div-bottom;
     background-color: orange;
+    background-image: url(https://techwiser.com/wp-content/uploads/2025/04/Gohan-Super-Saiyan-2-w-1024x576.webp);
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
 }
