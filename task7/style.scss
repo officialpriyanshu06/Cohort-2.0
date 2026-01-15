@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+html, 
+body {
+     height: 100%;
+     width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    section{
+        height: 100%;
+        flex-grow: 1;
+        background-color: aqua;
+        background-size: cover;
+        background-position: center;
+        
+    }
+    
+    section:hover{
+        flex-grow: 2;
+    }
+
+    section:nth-child(1){
+        background-image: url(https://i.pinimg.com/736x/5f/65/0e/5f650ed0cec4ca2ff1a7068fab354571.jpg);
+    }
+    section:nth-child(2){
+        background-image: url(https://i.pinimg.com/1200x/0a/41/6d/0a416d1a9ef61d2ac2e46e383688bc3d.jpg);
+    }
+    section:nth-child(3){
+        background-image: url(https://i.pinimg.com/736x/85/f5/35/85f5352771da6cf9354705bd927ed825.jpg);
+    }
+    section:nth-child(4){
+        background-image: url(./gohan.jpeg);
+    }
+    section:nth-child(5){
+        background-image: url(https://i.pinimg.com/736x/9c/ef/b5/9cefb558177ea0e02c14cc2612e20b77.jpg);
+    }
+    
+}
