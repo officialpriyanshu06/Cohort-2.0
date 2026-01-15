@@ -21,7 +21,8 @@ main{
         background-color: aqua;
         background-size: cover;
         background-position: center;
-        
+        transition: all 0.7s cubic-bezier(0.165, 0.84, 0.44, 1) ;
+        cursor: pointer;
     }
     
     section:hover{
