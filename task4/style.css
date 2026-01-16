@@ -68,11 +68,11 @@ a {
 }
 
 #links button{
-    background-color: royalblue;
+    /* background-color: royalblue; */
     color: white;
     padding: 15px 10px;
     border-radius: 50px;
-    border: none;
+    border: 1px solid royalblue;
 }
 
 #bottom1{
